@@ -6,11 +6,7 @@ const prompt = require('prompt-sync')()
 //     console.log('o quadrado do seu número é,', theNumber * theNumber, 'caso queira saber.')
 //     else (console.log('Por que você não experimenta me dar um número e não outras coisas?'))
 
-// do {
-//     var name = String(prompt("Who are you?"));
-//   } while (!name);
-//   console.log(name);
-//   console.log(typeof name)
+
 
 
 // getMinutes(() => {
@@ -18,26 +14,26 @@ const prompt = require('prompt-sync')()
 //   console.log(number); console.log(getMinutes)
 // });
 
-// switch (prompt("What is the weather like?")) {
-//     case "rainy":
-//       console.log("Remember to bring an umbrella.");
-//       break;
-//     case "sunny":
-//       console.log("Dress lightly.");
-//     case "cloudy":
-//       console.log("Go outside.");
-//       break;
-//     default:
-//       console.log("Unknown weather type!");
-//       break;
-//   }
+switch (prompt("What is the weather like?")) {
+    case "rainy":
+      console.log("Remember to bring an umbrella.");
+      break;
+    case "sunny":
+      console.log("Dress lightly.");
+    case "cloudy":
+      console.log("Go outside.");
+      break;
+    default:
+      console.log("Unknown weather type!");
+      break;
+  }
 
  
 
-  switch (prompt('Qual o seu humor hoje?')) {
-  case 'feliz':
-  (console.log('que bom que está feliz!'))
+  // switch (prompt('Qual o seu humor hoje?')) {
+  // case 'feliz':
+  // (console.log('que bom que está feliz!'))
   
-  break;
+  // break;
 
-  default: console.log('diga que está feliz, pessoa!')}
+  // default: console.log('diga que está feliz, pessoa!')}
