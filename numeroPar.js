@@ -1,9 +1,13 @@
+function verificarNumero(number) {
+    while (number < 10 ) {
+        console.log(number)
+        number++
+    }
+let result = verificarNumero(0)
 
-var parImpar = 4
-//for (var mostrarPar = 1; mostrarPar <= 36; mostrarPar++)
-if (parImpar == 1%2) {
-    console.log ('par')
-} else {
-    console.log('impar')
-}
-//console.log(numeroPar + mostrarPar)
+
+
+ console.log(result)
+} 
+return verificarNumero()
+

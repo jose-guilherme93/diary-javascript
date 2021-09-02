@@ -1,4 +1,4 @@
-let result = fizzBuzz(11)
+let result = fizzBuzz('11')
 
 function fizzBuzz(number) {
 if (typeof number !== 'number') {
