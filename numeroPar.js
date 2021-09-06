@@ -1,13 +1,15 @@
-function verificarNumero(number) {
-    while (number < 10 ) {
-        console.log(number)
-        number++
+
+
+function verificarNumero (limit) {
+
+    for(let index = 0; index <= limit; index++) {
+        
+        if (index % 2 === 0)
+            console.log(index, 'par')
+
+        else 
+            console.log(index, 'impar')
+    
     }
-let result = verificarNumero(0)
-
-
-
- console.log(result)
-} 
-return verificarNumero()
-
+}
+return verificarNumero(45645)

@@ -1,6 +1,6 @@
-let contador = 19999
+let contador = 0
 
-while (contador > 1) {
+while (contador < 10) {
     console.log(contador)
-    contador--
+    contador++
 }

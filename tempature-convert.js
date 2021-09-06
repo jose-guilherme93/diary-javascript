@@ -12,7 +12,8 @@ else if (escalaOrigem === 'fahrenheit' && escalaDesejada === 'celsius' ) {
 else if (escalaOrigem === 'celsius' && escalaDesejada === 'fahrenheit') {
    return  (temperatura * 1.8) + 32
 }
-else (escalaOrigem === 'kelvin' && escalaDesejada === 'faherenheit')
+else if (escalaOrigem === 'kelvin' && escalaDesejada === 'faherenheit')
 return temperatura * 1.8 - 459.67
 }
-return converteTemperatura(34, 'celsius', 'kelvin')
+console.log(Math.floor(converteTemperatura(500, 'kelvin', 'celsius')),'º graus')
+return converteTemperatura()
