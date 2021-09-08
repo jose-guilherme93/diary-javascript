@@ -1,2 +1,2 @@
 
-console.log(Math.random())
+console.log(Math.random(3))
