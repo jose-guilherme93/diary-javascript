@@ -34,11 +34,13 @@ console.log(array3)
 //OR
 let array4 = [3,4,5,3,4]
 array4.splice(0, array4.length)
-console.log(array4)
-//array concat bad way
-let a = [4,6, 'jose']
-let b = [4,5, 'gui']
-console.log( a + b)
+
 //forEach
-let arrayExample = [435,543,543,]
-arrayExample.forEach((element, index) => console.log(element, index))
+let arrayExample = [2,5,4,]
+arrayExample.forEach((element, index) => console.log(element * index))
+//return a
+const search = 'where does the big foot live?'
+const result = search.split(' ')
+
+console.log(result.join('-'))
+console.log(typeof result)

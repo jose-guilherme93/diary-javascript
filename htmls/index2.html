@@ -9,24 +9,28 @@
 </head>
 <body>
     <main>
+<<<<<<< Updated upstream
         <div></div>
+=======
+>>>>>>> Stashed changes
             <input type="number" class="input-number" name="soma1" id="soma1"> +
             <input type="number" class="input-number" name="soma2" id="soma2">
             <input type="button" class="btn" value="somar" onclick="somar()">
-            <div id="res">Resultado</div>
-
-        </div>
+            <div></div>
+            <output id="res"></output>
     </main>
+
     <script>
         function somar() {
-            var soma1 = window.document.getElementById('soma1')
-            var soma2 = window.document.querySelector('input#soma2')
-            var res = window.document.getElementById('res')
-            var s1 = Number(soma1.value)
-            var s2 = Number(soma2.value)
-            var s = s1 + s2
+            let soma1 = window.document.getElementById('soma1')
+            let soma2 = window.document.querySelector('input#soma2')
+            let res = window.document.getElementById('res')
+            let s1 = Number(soma1.value)
+            let s2 = Number(soma2.value)
+            let s = s1 + s2
             res.innerHTML = `A soma entre os números ${s1} e ${s2} é igual a <strong>${s}</strong>`
         }
     </script>
+    
 </body>
 </html>

@@ -1,6 +1,9 @@
-let contador = 0
+//criar um program com WHILE que termine quando o numéro digitado for 0
+const prompt = require ('prompt-sync')()
 
-while (contador < 10) {
-    console.log(contador)
-    contador++
+let num
+
+while (num != 0) {
+   num = prompt('digite um número: ')
+    
 }

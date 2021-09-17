@@ -1,21 +1,53 @@
-body {
-    background: white;
+* {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+body {
+    
+    background: #eee;    
+}
+
 main {
-    background-color: rgb(61, 224, 184);
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(157, 178, 211);
+    justify-items: center;
+    margin: 8rem auto;
+    padding: 2rem;
+    border: solid 1px #aaa;
+    border-radius: .4rem;
 
 }
+
+
 .input-number{
-    display: flex;
-    text-align: center;
     
-}
-.input-number{
-    background-color: aqua;
-    width: 200pt;
+    background-color: rgba(25, 0, 255, 0.507);
+    width: 150pt;
     height: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    appearance: none;
 }
 
 .btn {
-    flex-direction: row;
+    
+    margin: .7rem;
+    padding: .3rem;
+    width: 5rem;
+    
+    
+    border-radius: .5rem;
+    border: 0;
+    box-shadow: 0;
+    
 }
