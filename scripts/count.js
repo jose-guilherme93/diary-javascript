@@ -3,6 +3,7 @@ const count = (max, counter = 0) => () => {
   counter = counter === max ? 0 : counter + 1
   if (counter >= 10) {
     console.log('fim da contagem!')
+    
   }
 };
 

@@ -1,3 +1,4 @@
+//uma eleição tem 3 candidatos. faça quem tiver mais votos ser o vencedor.
 let votos = ['a', 'a', 'b', 'b','a', 'c', 'c', 'b',
 'c',]
 

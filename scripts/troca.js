@@ -1,4 +1,4 @@
-//FORMA LONGA
+//LONG WAY
 
 let a = 'vermelho'
 let b = 'azul'
@@ -10,7 +10,7 @@ let trocaB = b === 'azul' ? 'vermelho' : 'vermelho'
 
 console.log(trocaA + ' ' + trocaB)
 //===========================================================================================
-//FORMA INTELIGENTE
+//SMART WAY
 let a = 'vermelho'
 let b = 'azul'
 
