@@ -1,2 +1,2 @@
-
-console.log(Math.random(3))
+const array = cryptoObj.getRandomValues(array)
+console.log(array)
