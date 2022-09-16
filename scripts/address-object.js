@@ -1,4 +1,4 @@
-//printar na tela informações de enderenço(por exemplo), sem a sintaxe de object: [] , : '' 
+//printar na tela informações de endereço(por exemplo), sem a sintaxe de object: [] , : '' 
 
 let address = {
     rua: 'dos ipês',
