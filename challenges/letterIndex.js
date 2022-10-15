@@ -1,4 +1,4 @@
-let letters = ['perspicaz','sagaz','algoz','audaz','paz','eficaz','altivez','avidez','sensatez','tenaz','atroz',]
+let letters = ['perspicaz','sagaz','algoz','audaz','paz','eficaz','altivez','avidez','sensatez','tenaz','atroz', 'a']
 
 let letterA = []
 let letterE = []

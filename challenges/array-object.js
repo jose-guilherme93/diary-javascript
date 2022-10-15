@@ -27,11 +27,9 @@ let productList = [{
         especification: 'Refrigerante',
         price: 0.50,
     }]
-    for (code of productList) {
-        console.log('hello')
-    }
-console.log(productList[3].code)
-const productCode = prompt('Digite o código do produto: ')
+    
+console.log( typeof productList)
+// const productCode = prompt('Digite o código do produto: ')
 //const productQuantity = prompt('Digite a quantidade desejada: ')
     // if (productCode == productList[1] )
     //     console.log(productList[1])

@@ -7,4 +7,5 @@ Some examples of coding are about methods of language, representing real situati
 
 ### At this point, one dependence is require:
 `npm install prompt-sync`
-### This tiny library allow browser prompt runs on terminal.
+
+This tiny library allow browser prompt runs on terminal.
