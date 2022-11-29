@@ -29,11 +29,6 @@ let productList = [{
     }]
     
 console.log( typeof productList)
-// const productCode = prompt('Digite o código do produto: ')
-//const productQuantity = prompt('Digite a quantidade desejada: ')
-    // if (productCode == productList[1] )
-    //     console.log(productList[1])
-    // if (productCode == 2 )
-    //     console.log(productList[2].toString)
+
     
     

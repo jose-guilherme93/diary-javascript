@@ -1,14 +1,13 @@
-function imparOuPar() {
-let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+const numbers = [1,2,3,4.2,5.34,6435,334,535,523,532,0]
 
-    for(number of numbers) {
-        
-        if (number % 2 === 0)
-            console.log(number, 'par')
 
-        else 
-            console.log(number, 'impar')
+numbers.forEach((element) => {
+    
+    if(element % 2 === 0) 
+    
+    return console.log( `o número ${element.valueOf()} é par`)
 
-    }
+    else console.log( `o número ${element.valueOf()} é impar`)
+    
 
-}
+});
