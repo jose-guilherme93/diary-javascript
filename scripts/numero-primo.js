@@ -12,4 +12,4 @@ function verificarPrimo(limit) {
         if (ehPrimo) console.log(i)
     }
 }
-return verificarPrimo(38)
+return verificarPrimo(20)
