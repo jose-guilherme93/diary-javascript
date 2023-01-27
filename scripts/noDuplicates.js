@@ -1,4 +1,4 @@
- const skills = ['js', 'css', 'html', 'git', 'terminal bash', 'git', 'git']
+ const skills = ['js', 'css', 'html', 'git', 'bash', 'git', 'git']
  const noDuplicates = new Set(skills)
 
  noDuplicates.forEach(element => {
