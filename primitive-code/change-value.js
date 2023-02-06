@@ -1,11 +1,11 @@
 //LONG WAY
 
-let a = 'vermelho'
-let b = 'azul'
- console.log(a + ' ' + b)
+// let a = 'vermelho'
+// let b = 'azul'
+//  console.log(a + ' ' + b)
 
-let trocaA = a === 'vermelho' ? 'azul' : 'azul'
-let trocaB = b === 'azul' ? 'vermelho' : 'vermelho'
+// let trocaA = a === 'vermelho' ? 'azul' : 'azul'
+// let trocaB = b === 'azul' ? 'vermelho' : 'vermelho'
 
 
 console.log(trocaA + ' ' + trocaB)
